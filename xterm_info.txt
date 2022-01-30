@@ -1,0 +1,33 @@
+In computing, xterm is the standard terminal emulator for the X Window System. It allows users to run programs which require a command-line interface.
+
+If no particular program is specified, xterm runs the user's shell. An X display can show one or more user's xterm windows output at the same time.[2][3] Each xterm window is a separate process, but all share the same keyboard, taking turns as each xterm process acquires focus. Normally focus switches between X applications as the user moves the pointer (e.g., a mouse cursor) about the screen, but xterm provides options to grab focus (the Secure Keyboard feature) as well as accept input events sent without using the keyboard (the Allow SendEvents feature). Those options have limitations, as discussed in the xterm manual.
+
+xterm originated prior to the X Window System. It was originally written as a stand-alone terminal emulator for the VAXStation 100 (VS100) by Mark Vandevoorde, a student of Jim Gettys, in the summer of 1984, when work on X started. It rapidly became clear that it would be more useful as part of X than as a standalone program, so it was retargeted to X. As Gettys tells the story, "part of why xterm's internals are so horrifying is that it was originally intended that a single process be able to drive multiple VS100 displays.
+
+## PROTOCOLS
+
+Supported terminal control functions include:
+
+ANSI X3.64
+Digital Equipment Corporation VT family:
+VT52
+VT102
+VT220
+VT420
+Tektronix family:
+Tektronix 4014
+In addition to protocols used in commercially available terminal machines, xterm added a few protocols that have been adopted by other terminal emulators, such as:
+
+Mouse tracking: Support for buttons 4 and 5 was added in patch 120.[13]
+16-colour terminal protocol: Added in patch 39.[14]
+256 colors terminal protocol: Added in patch 111.[15]
+88-colour terminal protocol: Added in patch 115.[16]
+Custom colour palette: Ability to specifying the RGB values for palette entries was added in patch 111.
+
+## configure:
+
+First Download the Xresources copy and put on /home/user/ like: .Xresources (it's file..!)
+Them, You can use the color (background/foreground) & (colorUL/underLine color) of your choice. 
+[I've used this page for color: https://www.color-hex.com ]
+
+
