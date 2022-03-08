@@ -23,7 +23,7 @@ XTerm*faceSize5: 22
 XTerm*faceSize6: 24
 
 ! ## Scrollbar ##
-XTerm*vt100.scrollBar: false
+XTerm*vt100.scrollBar: true
 
 ! Do not scroll when there is new input
 XTerm*scrollTtyOutput: false
