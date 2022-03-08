@@ -30,4 +30,7 @@ First Download the Xresources copy and put on /home/user/ like: .Xresources (it'
 Them, You can use the color (background/foreground) & (colorUL/underLine color) of your choice. 
 [I've used this page for color: https://www.color-hex.com ]
 
+# Restart xterm:
+
+xrdb -load .Xresources
 
