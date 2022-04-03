@@ -38,6 +38,9 @@
 
 ! Font
 URxvt.font: xft:Terminus:size=14
+URxvt.background:       [86]#000000
+URxvt.intensityStyles:  false
+URxvt.cursorColor:      yellow
 
 ! ## Keybindings ##
 XTerm*vt100.translations: #override \n\
