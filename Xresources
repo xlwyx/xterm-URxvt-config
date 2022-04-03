@@ -55,42 +55,40 @@ XTerm*vt100.translations: #override \n\
 ! based on snazzy color theme
 ! https://github.com/olstenlarck/urxvt-xterm-snazzy/blob/7c34009a19ade65271e26ef065c678b0fa2abd0d/.Xdefaults
 !
-XTerm*title: XTerminal
-XTerm*background: #d4d1a4
-XTerm*foreground: #282f25
+! special
+*.foreground:   #a39a90
+*.background:   #16130f
+*.cursorColor:  #a39a90
 
-! original #86a2b0
-XTerm*colorUL: #dfbdc4
-XTerm*underlineColor: #6e4b35
+! black
+*.color0:       #16130f
+*.color8:       #5a5047
 
-! ! black
-XTerm*color0  : #2E3436
-XTerm*color8  : #686868
-!
-! ! red
-XTerm*color1  : #ff5c57
-XTerm*color9  : #ff5c57
-!
-! ! green
-XTerm*color2  : #5af78e
-XTerm*color10 : #5af78e
-!
-! ! yellow
-XTerm*color3  : #f3f99d
-XTerm*color11 : #f3f99d
-!
-! ! blue
-XTerm*color4  : #57c7ff
-XTerm*color12 : #57c7ff
-!
-! ! magenta
-XTerm*color5  : #ff6ac1
-XTerm*color13 : #ff6ac1
-!
-! ! cyan
-XTerm*color6  : #9aedfe
-XTerm*color14 : #9aedfe
-!
-! ! white
-XTerm*color7  : #f1f1f0
-XTerm*color15 : #eff0eb
+! red
+*.color1:       #826d57
+*.color9:       #826d57
+
+! green
+*.color2:       #57826d
+*.color10:      #57826d
+
+! yellow
+*.color3:       #6d8257
+*.color11:      #6d8257
+
+! blue
+*.color4:       #6d5782
+*.color12:      #6d5782
+
+! magenta
+*.color5:       #82576d
+*.color13:      #82576d
+
+! cyan
+*.color6:       #576d82
+*.color14:      #576d82
+
+! white
+*.color7:       #a39a90
+*.color15:      #dbd6d1
+
