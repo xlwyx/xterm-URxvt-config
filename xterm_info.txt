@@ -33,6 +33,7 @@ Them, You can use the color (background/foreground) & (colorUL/underLine color) 
 # Restart xterm:
 
 xrdb .Xresources
+xrdb -merge .Xresources
 
 # for permanent config:
 add to .xinitrc: xrdb .Xresources
