@@ -1,43 +1,43 @@
 ! special
-*.foreground:   #d0d0d0
-*.background:   #151515
-*.cursorColor:  #d0d0d0
+*.foreground:   #7ea2b4
+*.background:   #161b1d
+*.cursorColor:  #7ea2b4
 
 ! black
-*.color0:       #151515
-*.color8:       #505050
+*.color0:       #161b1d
+*.color8:       #5a7b8c
 
 ! red
-*.color1:       #fb9fb1
-*.color9:       #fb9fb1
+*.color1:       #d22d72
+*.color9:       #d22d72
 
 ! green
-*.color2:       #acc267
-*.color10:      #acc267
+*.color2:       #568c3b
+*.color10:      #568c3b
 
 ! yellow
-*.color3:       #ddb26f
-*.color11:      #ddb26f
+*.color3:       #8a8a0f
+*.color11:      #8a8a0f
 
 ! blue
-*.color4:       #6fc2ef
-*.color12:      #6fc2ef
+*.color4:       #257fad
+*.color12:      #257fad
 
 ! magenta
-*.color5:       #e1a3ee
-*.color13:      #e1a3ee
+*.color5:       #5d5db1
+*.color13:      #5d5db1
 
 ! cyan
-*.color6:       #12cfc0
-*.color14:      #12cfc0
+*.color6:       #2d8f6f
+*.color14:      #2d8f6f
 
 ! white
-*.color7:       #d0d0d0
-*.color15:      #f5f5f5
+*.color7:       #7ea2b4
+*.color15:      #ebf8ff
 
 
 ! Font
-URxvt.font:				xft:monospace:size=15
+URxvt.font:				xft:monospace:size=11
 URxvt.background:       		[69]#000000
 URxvt.intensityStyles:  		false
 URxvt.cursorColor:      		yellow
